@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Wash your kids hands for 20 seconds",
+          "examplePhrases": [
+            "Alexa open wash my hands",
+            "Alexa, ask wash my hands to wash my hands",
+            "help"
+          ],
+          "keywords": [
+            "wash",
+            "hands",
+            "twenty",
+            "seconds"
+          ],
+          "name": "Wash my hands",
+          "description": "a selection of kids songs that last 20 seconds to help wash your hands",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "simple skill to play a random song once",
+      "category": "CHILDRENS_LIFE_SKILLS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:413261539175:function:84fcde0c-bbf0-41fc-9581-1700f2eac12a:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": true,
+      "usesPersonalInfo": false
+    }
+  }
+}
